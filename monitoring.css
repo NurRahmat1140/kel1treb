@@ -1,0 +1,48 @@
+.nav-link:hover {
+	background-color: dimgrey;
+	transform: scaleX(110%);
+}
+.text {
+	font-weight: bold;
+}
+
+.card:hover {
+  transform: scale(1.10,1.10);
+}
+
+.card-body-icon {
+	position: absolute;
+	z-index: 0;
+	top: 20px;
+	right: 4px;
+	opacity: 0.6;
+	font-size: 80px;
+}
+
+.container-jam {
+	margin-top: 10px;
+	color: whitesmoke;
+	font-size: 14px;
+	padding-top: 20px;
+}
+
+.container-fontjam {
+	font-size: 15px;
+}
+
+#card-lift1, #card-lift2, #card-lift3 {
+  background: linear-gradient(to right, #cccccc, #e6e6e6);
+  transition: background 1s ease;
+}
+
+.normal-berjalan {
+  background: linear-gradient(to right, #19a700, #75de2a) !important;
+}
+
+.abnormal-berhenti {
+  background: linear-gradient(to right, #a70000, #b03232) !important;
+}
+
+.normal-berhenti {
+  background: linear-gradient(to right, #ffb100, #ffc000) !important;
+}
